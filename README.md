@@ -81,7 +81,7 @@ cd 14-weather-forecast-ml
 python -m venv .venv
 .venv\Scripts\activate          # Windows
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run Weather_forecast.py
 ```
 No API key is needed. The first load takes about a minute while the model trains.
 
